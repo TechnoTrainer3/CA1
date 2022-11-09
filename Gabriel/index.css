@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: auto;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #182330;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+nav {
+	float: center;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 1px;
+	font-size: 17px;
+	margin: 0 17px;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #202833;
+	height: 100%;
+}
+.content-area h1 {
+	font-family: poppins;
+	font-size: 70px;
+	letter-spacing: 1px;
+	padding-top: 30px;
+	margin: 0;
+    color: #66FCF1;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	font-size: 17px;
+	line-height: 30px;
+    padding-left: 22%;
+    padding-right: 22%;
+    color: #fff
+}
+figcaption {
+	color: #66FCF1;
+	font-family: poppins;
+	padding: 2px;
+	text-align: center;
+}
+.footer {
+	position: bottom ;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #46A29F;
+	font-family: poppins;
+	letter-spacing: 1px;
+	padding-top: 0px;
+	font-size: 17px;
+	text-align: center;
+}
+/* HYPERLINKS */
+/* unvisited link */
+a:link {
+	color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: #66FCF1;
+  }
+  
+  /* selected link */
+  a:active {
+	color: #66FCF1;
+  }
