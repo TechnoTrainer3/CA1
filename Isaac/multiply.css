@@ -1,3 +1,28 @@
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    background-color: #ADD8E6;
+}
+
 .container {
     text-align: center;
+    background-color: #00FF00;
+}
+
+.body {
+    text-align: center;
+    background-color: #A020F0;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu > button {
+    font-size: 20px;
+    background-color: #00FF00;
 }
